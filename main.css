@@ -19,11 +19,25 @@ body {
   
 }
 
+.introduction span {
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 200;
+  margin: 0;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+}
+
 .section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
+  max-width: 1140px;
 }
 
 .card {
@@ -46,7 +60,6 @@ body {
   left: 0;
   height: 5px;
   width: 100%;
-  background-color: hsl(0, 78%, 62%);
 }
 
 .cyan-card::after {
@@ -75,7 +88,29 @@ body {
   }
 }
 
+.card h2 {
+  margin: 0;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 15px 0 40px;
+}
+
 .card img {
   display: block;
   margin-left: auto;
+}
+
+footer {
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
