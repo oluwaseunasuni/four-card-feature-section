@@ -68,3 +68,9 @@ body {
 .card-push {
   transform: translateY(50%);
 }
+
+@media (max-width: 775px) {
+  .card-push {
+    transform: translateY(0);
+  }
+}
