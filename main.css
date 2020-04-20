@@ -101,16 +101,3 @@ p {
   display: block;
   margin-left: auto;
 }
-
-footer {
-  text-align: center;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
