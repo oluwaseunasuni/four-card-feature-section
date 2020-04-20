@@ -48,3 +48,19 @@ body {
   width: 100%;
   background-color: hsl(0, 78%, 62%);
 }
+
+.cyan-card::after {
+  background-color: hsl(180, 62%, 55%);
+}
+
+.red-card::after {
+  background-color: hsl(0, 78%, 62%);
+}
+
+.blue-card::after {
+  background-color: hsl(212, 86%, 64%);
+}
+
+.orange-card::after {
+  background-color: hsl(34, 97%, 64%);
+}
