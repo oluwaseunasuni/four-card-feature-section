@@ -37,7 +37,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
-  max-width: 1440px;
+  /* max-width: 1440px; */
 }
 
 .card {
@@ -78,15 +78,9 @@ p {
   background-color: hsl(34, 97%, 64%);
 }
 
-.card-push {
+/* .card-push {
   transform: translateY(50%);
-}
-
-@media (max-width: 775px) {
-  .card-push {
-    transform: translateY(0);
-  }
-}
+} */
 
 .card h2 {
   margin: 0;
@@ -101,3 +95,18 @@ p {
   display: block;
   margin-left: auto;
 }
+
+@media (min-width: 375) {
+  .card-push {
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 1440px) {
+  .card-push {
+    transform: translateY(50%);
+  }
+}
+
+/* - Mobile: 375px 
+- Desktop: 1440px */
